@@ -28,8 +28,8 @@ public class HttpHandler {
 
     public String makeServiceCall(String reqUrl) {
         String response = null;
-        final String username = "ou\\pi-api-public";
-        final String password = "M53$dx7,d3fP8";
+        final String username = "username";
+        final String password = "password";
 
         try {
             Authenticator.setDefault(new Authenticator() {
